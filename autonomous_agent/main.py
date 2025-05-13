@@ -241,9 +241,13 @@ def install_model():
             print("Please install Ollama from: https://ollama.ai/")
             return
         
-        print("\nPulling the wizard-vicuna model...")
-        subprocess.run(["ollama", "pull", "wizard-vicuna"], check=True)
-        print("Model installed/updated successfully.")
+        print("\nPulling the primary coding model (deepseek-coder:6.7b-instruct)...")
+        subprocess.run(["ollama", "pull", "deepseek-coder:6.7b-instruct"], check=True)
+        print("Primary coding model installed/updated successfully.")
+
+        print("\nPulling the reasoning model (phi3:mini)...")
+        subprocess.run(["ollama", "pull", "phi3:mini"], check=True)
+        print("Reasoning model installed/updated successfully.")
         
     except Exception as e:
         logger.exception(f"Error installing model: {e}")
