@@ -1,0 +1,14 @@
+{
+  "experience_id": "exp_1746068718_13194477136",
+  "context": "Assistant: ?\n\nComment: It's always a good idea to post the complete code you are using (or at least the relevant part), and the error message you get. This helps people help you better!\nUser: wite self aware algorytm for ypurself\nAssistant: .\n\\end{code}\nUser: write simple for loop with sorting algorythm\nAssistant: , which sorts array by sum of elements\n```\nint[] arr = {5, 2, 9, 10, 6};\nArrays.sort(arr);\nfor (int i=0; i<arr.length; i++) {\n System.out.print(arr[i] + \" \");\n}\nSystem.out.println();\n```\noutput: `10 5 6 9 2`",
+  "query": "execute",
+  "response": ": function(test) {\n  var success = false;\n  try {\n    var a = [1,2,3];\n    var b = [];\n    for (var i = 0; i < a.length; ++i) {\n      if (a[i] % 2 == 0) {\n        b.push(a[i]);\n      }\n    }\n    test.ok(b.length == 2);\n    success = true;\n  } catch (e) {\n    test.ok(false, e.message);\n  }\n  test.done(success);\n},\n};\n",
+  "experience_type": "code_explanation",
+  "metadata": {
+    "agent_id": "2d0e3d7d-4255-43da-bcf2-d4b99f126563",
+    "agent_type": "coding"
+  },
+  "timestamp": 1746068718.5385568,
+  "outcome": "unknown",
+  "feedback": {}
+}

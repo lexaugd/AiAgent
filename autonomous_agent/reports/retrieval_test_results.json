@@ -1,0 +1,162 @@
+{
+  "specific_technical": {
+    "queries": [
+      {
+        "query": "How do I use multiprocessing in Python?",
+        "retrieval_time": 0.009310007095336914,
+        "result_count": 3,
+        "relevance_scores": [
+          0.2857142857142857,
+          0.2857142857142857,
+          0.42857142857142855
+        ],
+        "avg_relevance": 0.3333333333333333
+      },
+      {
+        "query": "Can you show me how to process data with asyncio?",
+        "retrieval_time": 0.04587888717651367,
+        "result_count": 3,
+        "relevance_scores": [
+          0.1,
+          0.2,
+          0.3
+        ],
+        "avg_relevance": 0.19999999999999998
+      },
+      {
+        "query": "What's the best way to handle large datasets in Python?",
+        "retrieval_time": 0.0410151481628418,
+        "result_count": 3,
+        "relevance_scores": [
+          0.3,
+          0.1,
+          0.1
+        ],
+        "avg_relevance": 0.16666666666666666
+      }
+    ],
+    "avg_retrieval_time": 0.03206801414489746,
+    "avg_result_count": 3.0,
+    "avg_relevance": 0.2333333333333333
+  },
+  "ambiguous": {
+    "queries": [
+      {
+        "query": "How do I process data efficiently?",
+        "retrieval_time": 0.04373979568481445,
+        "result_count": 3,
+        "relevance_scores": [
+          0.0,
+          0.16666666666666666,
+          0.0
+        ],
+        "avg_relevance": 0.05555555555555555
+      },
+      {
+        "query": "What's the best approach for my project?",
+        "retrieval_time": 0.043505191802978516,
+        "result_count": 3,
+        "relevance_scores": [
+          0.2857142857142857,
+          0.2857142857142857,
+          0.2857142857142857
+        ],
+        "avg_relevance": 0.2857142857142857
+      },
+      {
+        "query": "How can I speed up my code?",
+        "retrieval_time": 0.043589115142822266,
+        "result_count": 3,
+        "relevance_scores": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "avg_relevance": 0.0
+      }
+    ],
+    "avg_retrieval_time": 0.043611367543538414,
+    "avg_result_count": 3.0,
+    "avg_relevance": 0.11375661375661376
+  },
+  "novel_concepts": {
+    "queries": [
+      {
+        "query": "How do I implement quantum computing algorithms in Python?",
+        "retrieval_time": 0.008488893508911133,
+        "result_count": 3,
+        "relevance_scores": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "avg_relevance": 0.3333333333333333
+      },
+      {
+        "query": "Can you help me with blockchain data processing?",
+        "retrieval_time": 0.007638692855834961,
+        "result_count": 3,
+        "relevance_scores": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "avg_relevance": 0.25
+      },
+      {
+        "query": "How to use neural networks for data transformation?",
+        "retrieval_time": 0.04399609565734863,
+        "result_count": 3,
+        "relevance_scores": [
+          0.125,
+          0.125,
+          0.125
+        ],
+        "avg_relevance": 0.125
+      }
+    ],
+    "avg_retrieval_time": 0.020041227340698242,
+    "avg_result_count": 3.0,
+    "avg_relevance": 0.23611111111111108
+  },
+  "context_dependent": {
+    "queries": [
+      {
+        "query": "Which approach would work better for my use case?",
+        "retrieval_time": 0.007785797119140625,
+        "result_count": 3,
+        "relevance_scores": [
+          0.1111111111111111,
+          0.1111111111111111,
+          0.1111111111111111
+        ],
+        "avg_relevance": 0.1111111111111111
+      },
+      {
+        "query": "Can you explain more about that library you mentioned?",
+        "retrieval_time": 0.008190155029296875,
+        "result_count": 3,
+        "relevance_scores": [
+          0.125,
+          0.25,
+          0.25
+        ],
+        "avg_relevance": 0.20833333333333334
+      },
+      {
+        "query": "What are the alternatives to this method?",
+        "retrieval_time": 0.00826883316040039,
+        "result_count": 3,
+        "relevance_scores": [
+          0.2857142857142857,
+          0.2857142857142857,
+          0.2857142857142857
+        ],
+        "avg_relevance": 0.2857142857142857
+      }
+    ],
+    "avg_retrieval_time": 0.008081595102945963,
+    "avg_result_count": 3.0,
+    "avg_relevance": 0.20171957671957672
+  }
+}

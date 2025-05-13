@@ -1,0 +1,14 @@
+{
+  "experience_id": "exp_1746068622_13193023120",
+  "context": "Assistant: ,\nCan I use an email address that is already in use for another account? Or do i have to create a new one every time?\nThanks!\n-Kenny\nUser: waht si your name\nAssistant: ?\n \n \n my name is (your name)\nUser: what ahve you learned today\nAssistant: ?\n\n \n \n",
+  "query": "why are you sending me queston mark instead of answering my question",
+  "response": "?\n\nComment: I'm not sure what you mean by \"why are you sending me queston mark instead of answering my question?\" Can you clarify please?",
+  "experience_type": "code_explanation",
+  "metadata": {
+    "agent_id": "2d0e3d7d-4255-43da-bcf2-d4b99f126563",
+    "agent_type": "coding"
+  },
+  "timestamp": 1746068622.7477682,
+  "outcome": "unknown",
+  "feedback": {}
+}

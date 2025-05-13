@@ -1,0 +1,38 @@
+[
+  {
+    "query": "How do I implement a binary search tree in Python?",
+    "metrics": {
+      "total_tokens": 2493,
+      "utilization": 0.608642578125,
+      "query_type": "SPECIFIC_TECHNICAL",
+      "complexity": "COMPLEX"
+    },
+    "generation_time": 28.582889080047607,
+    "response_length": 3217,
+    "response_excerpt": "\n\n To implement a binary search tree, you would start by defining a class for the nodes of the tree. The node should have two attributes: a value and a left child node (which could be None if it doesn"
+  },
+  {
+    "query": "What's the best way to handle errors in JavaScript?",
+    "metrics": {
+      "total_tokens": 312,
+      "utilization": 0.076171875,
+      "query_type": "SPECIFIC_TECHNICAL",
+      "complexity": "COMPLEX"
+    },
+    "generation_time": 20.78608202934265,
+    "response_length": 2576,
+    "response_excerpt": "\n\n There are several ways to handle errors in JavaScript:\n\n1. Try...catch blocks: These allow you to catch and handle specific types of errors that might occur within a function. Here's an example:\n``"
+  },
+  {
+    "query": "Can you explain how asynchronous programming works?",
+    "metrics": {
+      "total_tokens": 553,
+      "utilization": 0.135009765625,
+      "query_type": "CONTEXT_DEPENDENT",
+      "complexity": "MODERATE"
+    },
+    "generation_time": 7.137311935424805,
+    "response_length": 1283,
+    "response_excerpt": "\n\nAsynchronous programming allows a program to perform multiple tasks simultaneously without blocking the main thread. This is achieved by using callbacks or promises, which allow code to be executed "
+  }
+]

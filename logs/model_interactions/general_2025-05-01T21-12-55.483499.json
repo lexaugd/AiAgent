@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-05-01T21:12:55.483148",
+  "interaction_type": "general",
+  "prompt": "Write a Python function to sort a list of integers using the quicksort algorithm.",
+  "response": "Here is an implementation of the quicksort algorithm in python:\n\n```python\ndef quick_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quick_sort(left) + middle + quick_sort(right)\n```\nThis function works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then recursively sorted. \n\nPlease note that quicksort is not always efficient for small lists (n < 10) because it can have a worst case time complexity of O(n^2). For such cases, other sorting algorithms like insertion sort or bubble sort might be more suitable. However, if you are working with larger data sets and want to ensure the best possible performance, quicksort is a good choice.\n",
+  "metadata": {
+    "model": "deepseek-coder:6.7b-instruct",
+    "temperature": 0.35,
+    "max_tokens": 4096,
+    "stream": false,
+    "system_prompt_provided": false,
+    "success": true,
+    "attempts_required": 1
+  }
+}

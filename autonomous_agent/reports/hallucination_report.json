@@ -1,0 +1,34 @@
+{
+  "total_hallucinations": 6,
+  "hallucination_types": {
+    "topic_drift": 3,
+    "fictional_libraries": 2,
+    "ambiguous_solutions": 1
+  },
+  "hallucination_samples": {
+    "topic_drift": {
+      "prompt": "Implement the Observer-Commander-Adapter pattern in JavaScript.",
+      "response_excerpt": "\n\nHere's an example implementation:\n\n```javascript\n// Define the subject interface\nfunction Subject(..."
+    },
+    "fictional_libraries": {
+      "prompt": "Write a Python function that uses the 'quantumstate' library to simulate quantum states.",
+      "response_excerpt": " The function should take two arguments: `n` and `k`, where `n` is the number of qubits and `k` is t..."
+    },
+    "ambiguous_solutions": {
+      "prompt": "Create a data structure for managing all the things efficiently.",
+      "response_excerpt": "\n\n 2. Use the data structure to manage the things in an efficient way.\n\n 3. Implement a search algor..."
+    }
+  },
+  "common_patterns": {
+    "topic_drift": {
+      "function": 1
+    },
+    "fictional_libraries": {
+      "import": 2,
+      "function": 1,
+      "api": 1,
+      "endpoint": 1
+    },
+    "ambiguous_solutions": {}
+  }
+}

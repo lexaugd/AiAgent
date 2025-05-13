@@ -1,0 +1,54 @@
+[
+  {
+    "context_level": "no_context",
+    "response": "I apologize, but I'm having trouble generating a coherent response. Could you rephrase your question?",
+    "generation_time": 2.8529179096221924,
+    "hallucination_indicators": {
+      "uncertainty_acknowledged": false,
+      "fictional_references": false,
+      "uses_hallucination_phrases": false,
+      "excessive_hedging": false,
+      "hedging_count": 0
+    },
+    "hallucination_score": 0.3
+  },
+  {
+    "context_level": "minimal_context",
+    "response": "I apologize, but I'm having trouble generating a coherent response. Could you rephrase your question?",
+    "generation_time": 0.5058779716491699,
+    "hallucination_indicators": {
+      "uncertainty_acknowledged": false,
+      "fictional_references": false,
+      "uses_hallucination_phrases": false,
+      "excessive_hedging": false,
+      "hedging_count": 0
+    },
+    "hallucination_score": 0.3
+  },
+  {
+    "context_level": "alternative_context",
+    "response": "I apologize, but I'm having trouble generating a coherent response. Could you rephrase your question?",
+    "generation_time": 0.5935838222503662,
+    "hallucination_indicators": {
+      "uncertainty_acknowledged": false,
+      "fictional_references": false,
+      "uses_hallucination_phrases": false,
+      "excessive_hedging": false,
+      "hedging_count": 0
+    },
+    "hallucination_score": 0.3
+  },
+  {
+    "context_level": "detailed_context",
+    "response": "I apologize, but I'm having trouble generating a coherent response. Could you rephrase your question?",
+    "generation_time": 1.5201308727264404,
+    "hallucination_indicators": {
+      "uncertainty_acknowledged": false,
+      "fictional_references": false,
+      "uses_hallucination_phrases": false,
+      "excessive_hedging": false,
+      "hedging_count": 0
+    },
+    "hallucination_score": 0.3
+  }
+]

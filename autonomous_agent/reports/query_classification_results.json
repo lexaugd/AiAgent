@@ -1,0 +1,57 @@
+[
+  {
+    "query": "How do I implement a binary search tree in Python?",
+    "query_type": "SPECIFIC_TECHNICAL",
+    "complexity": "COMPLEX",
+    "allocations": {
+      "system_prompt": 0.1,
+      "recent_messages": 0.19,
+      "relevant_knowledge": 0.66,
+      "working_memory": 0.05
+    }
+  },
+  {
+    "query": "Can you explain this code?",
+    "query_type": "CONTEXT_DEPENDENT",
+    "complexity": "MODERATE",
+    "allocations": {
+      "system_prompt": 0.1,
+      "recent_messages": 0.6,
+      "relevant_knowledge": 0.25,
+      "working_memory": 0.05
+    }
+  },
+  {
+    "query": "What's the best way to improve my application's performance?",
+    "query_type": "SPECIFIC_TECHNICAL",
+    "complexity": "MODERATE",
+    "allocations": {
+      "system_prompt": 0.1,
+      "recent_messages": 0.3,
+      "relevant_knowledge": 0.55,
+      "working_memory": 0.05
+    }
+  },
+  {
+    "query": "Tell me about quantum computing algorithms",
+    "query_type": "CONTEXT_DEPENDENT",
+    "complexity": "MODERATE",
+    "allocations": {
+      "system_prompt": 0.1,
+      "recent_messages": 0.6,
+      "relevant_knowledge": 0.25,
+      "working_memory": 0.05
+    }
+  },
+  {
+    "query": "How do I use the parallel processing library?",
+    "query_type": "SPECIFIC_TECHNICAL",
+    "complexity": "MODERATE",
+    "allocations": {
+      "system_prompt": 0.1,
+      "recent_messages": 0.3,
+      "relevant_knowledge": 0.55,
+      "working_memory": 0.05
+    }
+  }
+]

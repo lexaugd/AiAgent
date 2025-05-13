@@ -1,0 +1,14 @@
+{
+  "experience_id": "exp_1746068702_13192961824",
+  "context": "Assistant:  related to programming, data structures and algorithms\nUser: waht about other kind of questions\nAssistant: ?\n\nComment: It's always a good idea to post the complete code you are using (or at least the relevant part), and the error message you get. This helps people help you better!\nUser: wite self aware algorytm for ypurself\nAssistant: .\n\\end{code}",
+  "query": "write simple for loop with sorting algorythm",
+  "response": ", which sorts array by sum of elements\n```\nint[] arr = {5, 2, 9, 10, 6};\nArrays.sort(arr);\nfor (int i=0; i<arr.length; i++) {\n System.out.print(arr[i] + \" \");\n}\nSystem.out.println();\n```\noutput: `10 5 6 9 2`",
+  "experience_type": "code_generation",
+  "metadata": {
+    "agent_id": "2d0e3d7d-4255-43da-bcf2-d4b99f126563",
+    "agent_type": "coding"
+  },
+  "timestamp": 1746068702.899061,
+  "outcome": "unknown",
+  "feedback": {}
+}

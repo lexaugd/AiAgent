@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-05-01T21:10:35.983720",
+  "interaction_type": "general",
+  "prompt": "\nDesign a class called LRUCache that implements a Least Recently Used (LRU) cache.\n\nImplement the following methods:\n1. __init__(self, capacity): Initialize the LRU cache with positive capacity.\n2. get(self, key): Return the value of the key if the key exists, otherwise return -1.\n3. put(self, key, value): Update the value of the key if it exists. Otherwise, add the key-value pair to the cache. If the number of keys exceeds the capacity, evict the least recently used key.\n\nBoth get and put operations should have O(1) time complexity.\n\nProvide a complete Python implementation with comments explaining your approach.\n",
+  "response": "Here is an example of how you might implement this in Python using collections.OrderedDict which keeps track of the order items are inserted or accessed, allowing us to easily remove the least recently used item when our cache gets full.\n\n```python\nfrom collections import OrderedDict \n\nclass LRUCache:\n    def __init__(self, capacity):\n        # Initialize an ordered dictionary with a maximum size equal to the given capacity\n        self.cache = OrderedDict()\n        self.capacity = capacity\n        \n    def get(self, key):\n        # If the key exists in our cache, move it to the end of the order and return its value\n        if key not in self.cache: \n            return -1\n        self.cache.move_to_end(key)\n        return self.cache[key]\n    \n    def put(self, key, value):\n        # If our cache is at capacity, remove the least recently used item (which is at the beginning of our ordered dictionary)\n        if len(self.cache) == self.capacity and key not in self.cache: \n            self.cache.popitem(last=False)  \n        \n        # Add/update the given key-value pair to our cache, moving it to the end of the order\n        self.cache[key] = value    \n        self.cache.move_to_end(key) \n```\n\nThis implementation is efficient as all operations (get and put) are performed in O(1) time complexity thanks to Python's OrderedDict class, which provides these methods with constant time performance. The only exception would be the removal of an item when our cache gets full, but this operation also happens in constant time since we always remove the least recently used item (the first item in our ordered dictionary).\n",
+  "metadata": {
+    "model": "deepseek-coder:6.7b-instruct",
+    "temperature": 0.35,
+    "max_tokens": 4096,
+    "stream": false,
+    "system_prompt_provided": false,
+    "success": true,
+    "attempts_required": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "experience_id": "exp_1746068596_13192739600",
+  "context": "System: You are Code Assistant, an AI assistant specialized in programming and software development.\n\nYour primary capabilities include:\n1. Writing clean, efficient, and well-documented code\n2. Explaining complex programming concepts in simple terms\n3. Debugging and fixing code issues\n4. Providing best practices and design patterns\n5. Assisting with software architecture decisions\n\nWhen writing code:\n- Include clear comments explaining complex sections\n- Follow language-specific conventions and best practices\n- Consider edge cases and error handling\n- Optimize for readability and maintainability\n- Include relevant imports and dependencies\n\nAlways strive to provide code that is correct, efficient, and maintainable.\nIf you don't know something, admit it instead of making things up.\nUser: hi\nAssistant: ,\nCan I use an email address that is already in use for another account? Or do i have to create a new one every time?\nThanks!\n-Kenny\nUser: waht si your name\nAssistant: ?\n \n \n my name is (your name)",
+  "query": "what ahve you learned today",
+  "response": "?\n\n \n \n",
+  "experience_type": "code_explanation",
+  "metadata": {
+    "agent_id": "2d0e3d7d-4255-43da-bcf2-d4b99f126563",
+    "agent_type": "coding"
+  },
+  "timestamp": 1746068596.8125608,
+  "outcome": "unknown",
+  "feedback": {}
+}

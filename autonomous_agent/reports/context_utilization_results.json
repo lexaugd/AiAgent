@@ -1,0 +1,90 @@
+[
+  {
+    "test_case": "Specific Technical",
+    "query": "How do I implement a binary search tree in Python?",
+    "message_count": 10,
+    "original": {
+      "time": 0.21028399467468262,
+      "tokens": 3256,
+      "utilization": 0.794921875,
+      "message_count": 4,
+      "knowledge_count": 20
+    },
+    "optimized": {
+      "time": 0.015194177627563477,
+      "tokens": 1080,
+      "utilization": 0.264404296875,
+      "query_type": "SPECIFIC_TECHNICAL",
+      "complexity": "COMPLEX",
+      "message_count": 4,
+      "knowledge_count": 10
+    },
+    "improvement": -66.73832923832923
+  },
+  {
+    "test_case": "Context Dependent",
+    "query": "Can you explain how this code works?",
+    "message_count": 15,
+    "original": {
+      "time": 0.053070783615112305,
+      "tokens": 3468,
+      "utilization": 0.8466796875,
+      "message_count": 13,
+      "knowledge_count": 19
+    },
+    "optimized": {
+      "time": 0.016111135482788086,
+      "tokens": 3023,
+      "utilization": 0.73876953125,
+      "query_type": "CONTEXT_DEPENDENT",
+      "complexity": "MODERATE",
+      "message_count": 13,
+      "knowledge_count": 10
+    },
+    "improvement": -12.745098039215685
+  },
+  {
+    "test_case": "Ambiguous",
+    "query": "How can I make my code better?",
+    "message_count": 10,
+    "original": {
+      "time": 0.016756057739257812,
+      "tokens": 2405,
+      "utilization": 0.587158203125,
+      "message_count": 9,
+      "knowledge_count": 20
+    },
+    "optimized": {
+      "time": 0.015350818634033203,
+      "tokens": 1938,
+      "utilization": 0.473876953125,
+      "query_type": "AMBIGUOUS",
+      "complexity": "MODERATE",
+      "message_count": 9,
+      "knowledge_count": 10
+    },
+    "improvement": -19.293139293139294
+  },
+  {
+    "test_case": "Novel Concept",
+    "query": "How do I implement quantum computing algorithms?",
+    "message_count": 10,
+    "original": {
+      "time": 0.017719268798828125,
+      "tokens": 3009,
+      "utilization": 0.734619140625,
+      "message_count": 10,
+      "knowledge_count": 14
+    },
+    "optimized": {
+      "time": 0.015363693237304688,
+      "tokens": 2439,
+      "utilization": 0.59619140625,
+      "query_type": "CONTEXT_DEPENDENT",
+      "complexity": "COMPLEX",
+      "message_count": 10,
+      "knowledge_count": 10
+    },
+    "improvement": -18.843469591226324
+  }
+]

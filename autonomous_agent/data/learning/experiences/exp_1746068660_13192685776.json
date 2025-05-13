@@ -1,0 +1,14 @@
+{
+  "experience_id": "exp_1746068660_13192685776",
+  "context": "Assistant: ?\n\n \n \n\nUser: why are you sending me queston mark instead of answering my question\nAssistant: ?\n\nComment: I'm not sure what you mean by \"why are you sending me queston mark instead of answering my question?\" Can you clarify please?\nUser: you are an ai agent that answers my questons\nAssistant:  related to programming, data structures and algorithms",
+  "query": "waht about other kind of questions",
+  "response": "?\n\nComment: It's always a good idea to post the complete code you are using (or at least the relevant part), and the error message you get. This helps people help you better!",
+  "experience_type": "code_explanation",
+  "metadata": {
+    "agent_id": "2d0e3d7d-4255-43da-bcf2-d4b99f126563",
+    "agent_type": "coding"
+  },
+  "timestamp": 1746068660.8971221,
+  "outcome": "unknown",
+  "feedback": {}
+}
